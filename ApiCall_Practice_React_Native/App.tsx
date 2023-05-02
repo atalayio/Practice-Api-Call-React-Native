@@ -61,9 +61,9 @@ function App(): JSX.Element {
     const fetchPhotos = async () => {
       const response = await fetch('https://jsonplaceholder.typicode.com/photos');
       const data = await response.json();
-      const removeLast2 = data.slice(0, -4990);
+      const removeLast4990 = data.slice(0, -4990);
 
-      setPhotos(removeLast2);
+      setPhotos(removeLast4990);
  };
  fetchPhotos();
 }, []);
