@@ -49,7 +49,7 @@ to start the app.
 - Reusable card design.
 - Cards should have checkboxes.
 - When the button is clicked, display an alert box with the selected checkboxes.
-Note: Design has not been a major focus in this project.
+- Note: Design has not been a major focus in this project.
 
 
 
